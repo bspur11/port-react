@@ -18,7 +18,7 @@ function Footer() {
 			</div>
 			<div>
 				<a
-					href="https://www.linkedin.com/in/brad-spurrell"
+					href="https://www.linkedin.com/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
@@ -31,7 +31,7 @@ function Footer() {
 			</div>
 			<div>
 				<a
-					href="https://twitter.com/mister_garak"
+					href="https://twitter.com/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
