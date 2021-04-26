@@ -48,19 +48,17 @@ function Portfolio() {
 			deployed: 'https://codinggroupproject1.github.io/REFRAIN/',
 		},
 		{
-			name: 'Budget Tracker',
+			name: 'Tracker',
 			description:
-				'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience for managing their finances and budgeting no matter where they are.',
-			image: 'budget-tracker-image.png',
+				'This is an Employee Tracker program designed for management to use to keep track of company employees, their departments, the managers they report to and the saleries they are paid.',
+			image: 'tracker.png',
 			technologies: [
-				'JavaScript',
-				'MongoDB',
-				'IndexedDB & Service Workers',
-				'Node.js',
-				'Express',
+				'inquirer',
+				'console.table',
+				'mysql2',
 			],
-			github: 'https://github.com/OwaisIslam/budget-tracker',
-			deployed: 'https://budget-tracker-owais.herokuapp.com/',
+			github: 'https://github.com/bspur11/personel-tracker.git',
+			deployed: 'https://drive.google.com/file/d/1hmiNY-8eQ5mnz-Po5S2-Oq9UWdpenM2e/view',
 		},
 		{
 			name: 'brad-port',
@@ -72,22 +70,22 @@ function Portfolio() {
 			deployed: 'https://bspur11.github.io/brad-port/',
 		},
 		{
-			name: 'Password Generator',
+			name: 'Team Pro Gen',
 			description:
-				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
-			image: 'password-generator-image.png',
-			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/password-generator',
-			deployed: 'https://owaisislam.github.io/password-generator/',
+				' This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.',
+			image: 'team-pro-gen.png',
+			technologies: ['jest', 'inquirer', 'to run the app use: node index.js'],
+			github: '',
+			deployed: '',
 		},
 		{
-			name: 'Note Taker',
+			name: 'Moble Bank',
 			description:
 				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-			image: 'note-taker-image.png',
+			image: 'moble-bank.png',
 			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
-			github: 'https://github.com/OwaisIslam/note-taker',
-			deployed: 'https://note-taker-owais.herokuapp.com/',
+			github: 'https://github.com/bspur11/moble-bank.git',
+			deployed: 'https://bud-bank.herokuapp.com/',
 		},
 	];
 
