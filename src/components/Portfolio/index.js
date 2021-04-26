@@ -4,27 +4,29 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Living Real',
+			name: 'Code Blog',
 			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
-			image: 'living-real-image.png',
+				'This is the Module 14 Challenge. It is a blog for coders to post interesting articles and comment on those articles and to communicate new and old ideas to other coders. The app follows the MVC (Model-View-Controller) paradigm in its folder architecture, using Handlebars.js as the templating language,Mysql and Sequelize to connect to a MySQL database for Models, and the express-session npm package for authentication. The bcrypt package was used for hashin passwords.',
+			image: '',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
 				'Node.js',
-				'Express & NoSQL',
-				'Heroku & AWS S3',
-				'React.js',
-				'MERN Stack',
+				'Express & MySQL2',
+				'Heroku & JawsDB',
+			  "Express-handlebars",
+				'Dontev',
+				'bcrypt',
+				'Sequelize',
 			],
-			github: 'https://github.com/P3T2-Realty-Rogues/living-real',
-			deployed: 'https://living-real.herokuapp.com/',
+			github: 'https://github.com/bspur11/code-blog.git',
+			deployed: 'https://coding-journal99.herokuapp.com/',
 		},
 		{
-			name: 'Auto Tracker',
+			name: 'Dangles',
 			description:
 				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'auto-tracker-image.png',
+			image: 'dangles.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
@@ -37,13 +39,13 @@ function Portfolio() {
 			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
 		},
 		{
-			name: 'Flash Beats',
+			name: 'Refrain',
 			description:
 				'A clean and accurate way to search for your favorite songs while also displaying the lyrics.',
-			image: 'flash-beats-image.gif',
-			technologies: ['HTML/CSS', 'JavaScript', 'jQuery'],
-			github: 'https://github.com/OwaisIslam/flash-beats',
-			deployed: 'https://teamflash1.github.io/music-app/',
+			image: 'Refrain.png',
+			technologies: ['HTML/CSS', 'JavaScript', 'Materialize'],
+			github: 'https://github.com/CodingGroupProject1/REFRAIN.git',
+			deployed: 'https://codinggroupproject1.github.io/REFRAIN/',
 		},
 		{
 			name: 'Budget Tracker',
@@ -61,13 +63,13 @@ function Portfolio() {
 			deployed: 'https://budget-tracker-owais.herokuapp.com/',
 		},
 		{
-			name: 'Weather Dashboard',
+			name: 'brad-port',
 			description:
-				'A weather dashboard that shows current weather and five-day weather forecast for any city.',
-			image: 'weather-dashboard-image.png',
+				'This is my first atempt at a portfolio website. It needs much improvement and I will work on that in the future..',
+			image: 'brad-port.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/weather-dashboard',
-			deployed: 'https://owaisislam.github.io/weather-dashboard/',
+			github: 'https://github.com/bspur11/brad-port.git',
+			deployed: 'https://bspur11.github.io/brad-port/',
 		},
 		{
 			name: 'Password Generator',
