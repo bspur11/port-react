@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
+// import currentProject from "Portfolio";
 
 function Project(props) {
 	// This imports the information for the current project sent down.
-	const currentProject = useState(props)[0].projects;
+	const currentProject = props.projects;
 
-	const name = currentProject.name;
+	const name = props.name;
 	const description = currentProject.description;
 	const image = currentProject.image;
 	const techs = currentProject.technologies;
@@ -31,7 +32,7 @@ function Project(props) {
 		<Card style={{ width: "18rem" }}>
 			<Card.Img
 				variant="top"
-				src={require(`../../assets/images/${image}`)}
+				src={`${image}`}
 				className="card-image"
 			/>
 			<div className="center">
