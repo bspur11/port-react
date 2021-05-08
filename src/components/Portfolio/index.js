@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+// import Images from 'src/assets/images';
 
 function Portfolio() {
 	const projects = [
@@ -7,7 +8,7 @@ function Portfolio() {
 			name: 'Code Blog',
 			description:
 				'This is the Module 14 Challenge. It is a blog for coders to post interesting articles and comment on those articles and to communicate new and old ideas to other coders. The app follows the MVC (Model-View-Controller) paradigm in its folder architecture, using Handlebars.js as the templating language,Mysql and Sequelize to connect to a MySQL database for Models, and the express-session npm package for authentication. The bcrypt package was used for hashin passwords.',
-			image: '',
+			image: '/assets/images/code-blog.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
@@ -26,7 +27,7 @@ function Portfolio() {
 			name: 'Dangles',
 			description:
 				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'dangles.png',
+			image: '/assets/images/dangles.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
@@ -42,7 +43,7 @@ function Portfolio() {
 			name: 'Refrain',
 			description:
 				'A clean and accurate way to search for your favorite songs while also displaying the lyrics.',
-			image: 'Refrain.png',
+			image: '/assets/images/Refrain.png',
 			technologies: ['HTML/CSS', 'JavaScript', 'Materialize'],
 			github: 'https://github.com/CodingGroupProject1/REFRAIN.git',
 			deployed: 'https://codinggroupproject1.github.io/REFRAIN/',
@@ -51,7 +52,7 @@ function Portfolio() {
 			name: 'Tracker',
 			description:
 				'This is an Employee Tracker program designed for management to use to keep track of company employees, their departments, the managers they report to and the saleries they are paid.',
-			image: 'tracker.png',
+			image: '/assets/images/tracker.png',
 			technologies: [
 				'inquirer',
 				'console.table',
@@ -64,7 +65,7 @@ function Portfolio() {
 			name: 'brad-port',
 			description:
 				'This is my first atempt at a portfolio website. It needs much improvement and I will work on that in the future..',
-			image: 'brad-port.png',
+			image: '/assets/images/brad-port.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
 			github: 'https://github.com/bspur11/brad-port.git',
 			deployed: 'https://bspur11.github.io/brad-port/',
@@ -73,7 +74,7 @@ function Portfolio() {
 			name: 'Team Pro Gen',
 			description:
 				' This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.',
-			image: 'team-pro-gen.png',
+			image: '/assets/images/team-pro-gen.png',
 			technologies: ['jest', 'inquirer', 'to run the app use: node index.js'],
 			github: '',
 			deployed: '',
@@ -82,7 +83,7 @@ function Portfolio() {
 			name: 'Moble Bank',
 			description:
 				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-			image: 'moble-bank.png',
+			image: '/assets/images/moble-bank.png',
 			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
 			github: 'https://github.com/bspur11/moble-bank.git',
 			deployed: 'https://bud-bank.herokuapp.com/',
