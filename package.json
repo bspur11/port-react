@@ -1,7 +1,8 @@
 {
-  "homepage": "",
+  
   "name": "port-react",
   "version": "0.1.0",
+  "homepage": "https://bspur11.github.io/port-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
@@ -15,6 +16,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
