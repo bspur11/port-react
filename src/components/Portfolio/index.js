@@ -7,7 +7,7 @@ function Portfolio() {
 		{
 			name: 'Code Blog',
 			description:
-				'This is the Module 14 Challenge. It is a blog for coders to post interesting articles and comment on those articles and to communicate new and old ideas to other coders. The app follows the MVC (Model-View-Controller) paradigm in its folder architecture, using Handlebars.js as the templating language,Mysql and Sequelize to connect to a MySQL database for Models, and the express-session npm package for authentication. The bcrypt package was used for hashin passwords.',
+				'This is the Module 14 Challenge. It is a blog for coders to post interesting articles and comment on those articles and to communicate new and old ideas to other coders. ',
 			image: '/port-react/assets/images/code-blog.png',
 			technologies: [
 				'HTML/CSS',
