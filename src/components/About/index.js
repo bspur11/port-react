@@ -8,7 +8,7 @@ function About() {
 			</div>
 			<div className="center">
 				<img
-					src={"/assets/images/recent-photo.jpg"}
+					src={"/port-react/assets/images/recent-photo.jpg"}
 					alt="about-me"
 					className="photo"
 				/>
