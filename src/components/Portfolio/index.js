@@ -7,7 +7,7 @@ function Portfolio() {
 		{
 			name: 'book End',
 			description:
-			'Are you struggling to find a good book to read and have exausted your options to find the best one for you? During lockdown good media that you can sink your teeth into can be hard to find. Bookend is a website that will recommend books based on your TV prefences. Select a genre, or enter in a specific show, and BookEnd will find the perfect book for you! ',
+			'Are you struggling to find a good book to read and have exausted your options to find the best one for you?  Bookend is a website that will recommend books based on your TV prefences. BookEnd will find the perfect book for you! ',
 			image: '/port-react/assets/images/bookend.png',
 			technologies: [
 				'React - HTML and CSS',
