@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This README is taken from the Module Challenge and explains how to use a REACT App.
+But you must clone the repo first to your machine.
+The link to the deployed site is at the bottom of this repo.
 
 ## Available Scripts
 
@@ -68,5 +71,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Github Pages: https://bspur11.github.io/port-react/
+
+## Github Repo: https://github.com/bspur11/port-react.git
 
 ## Brad Spurrell

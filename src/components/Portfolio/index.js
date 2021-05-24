@@ -5,28 +5,28 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Code Blog',
+			name: 'book End',
 			description:
-				'This is the Module 14 Challenge. It is a blog for coders to post interesting articles and comment on those articles and to communicate new and old ideas to other coders. ',
-			image: '/port-react/assets/images/code-blog.png',
+			'Are you struggling to find a good book to read and have exausted your options to find the best one for you? During lockdown good media that you can sink your teeth into can be hard to find. Bookend is a website that will recommend books based on your TV prefences. Select a genre, or enter in a specific show, and BookEnd will find the perfect book for you! ',
+			image: '/port-react/assets/images/bookend.png',
 			technologies: [
-				'HTML/CSS',
-				'JavaScript',
+				'React - HTML and CSS',
+				'MongoDB/Mongoose',
 				'Node.js',
-				'Express & MySQL2',
-				'Heroku & JawsDB',
-			  "Express-handlebars",
-				'Dontev',
-				'bcrypt',
-				'Sequelize',
+				'Google books/Movie API',
+				'Heroku',
+			  "PWA",
+				'Graphql',
+				'Noder.js',
+				'Express.js',
 			],
-			github: 'https://github.com/bspur11/code-blog.git',
-			deployed: 'https://coding-journal99.herokuapp.com/',
+			github: 'https://github.com/project3UOT/bookend.git',
+			deployed: 'http://bookend-recommendations.herokuapp.com/',
 		},
 		{
 			name: 'Dangles',
 			description:
-				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
+				'Welcome to Dangles. Take a brave step into the world of Fantasy NHL Hockey by making your ideal team and seeing how they stack up against other fans!',
 			image: '/port-react/assets/images/dangles.png',
 			technologies: [
 				'HTML/CSS',
@@ -36,8 +36,8 @@ function Portfolio() {
 				'Express & Sequelize',
 				'Heroku & AWS S3',
 			],
-			github: 'https://github.com/OwaisIslam/auto-tracker',
-			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
+			github: 'https://github.com/uoft-project2-group7/project.git',
+			deployed: 'https://intense-headland-44008.herokuapp.com/',
 		},
 		{
 			name: 'Refrain',
@@ -76,7 +76,7 @@ function Portfolio() {
 				' This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.',
 			image: '/port-react/assets/images/team-pro-gen.png',
 			technologies: ['jest', 'inquirer', 'to run the app use: node index.js'],
-			github: '',
+			github: 'https://github.com/bspur11/team-pro-gen.git',
 			deployed: '',
 		},
 		{
