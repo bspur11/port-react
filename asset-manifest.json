@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/port-react/static/css/main.e11e506f.chunk.css",
-    "main.js": "/port-react/static/js/main.20ed9ed7.chunk.js",
-    "main.js.map": "/port-react/static/js/main.20ed9ed7.chunk.js.map",
+    "main.css": "/port-react/static/css/main.dbaf75e1.chunk.css",
+    "main.js": "/port-react/static/js/main.f7a1b410.chunk.js",
+    "main.js.map": "/port-react/static/js/main.f7a1b410.chunk.js.map",
     "runtime-main.js": "/port-react/static/js/runtime-main.0b146896.js",
     "runtime-main.js.map": "/port-react/static/js/runtime-main.0b146896.js.map",
     "static/js/2.1380740d.chunk.js": "/port-react/static/js/2.1380740d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.42baba71.chunk.js": "/port-react/static/js/3.42baba71.chunk.js",
     "static/js/3.42baba71.chunk.js.map": "/port-react/static/js/3.42baba71.chunk.js.map",
     "index.html": "/port-react/index.html",
-    "static/css/main.e11e506f.chunk.css.map": "/port-react/static/css/main.e11e506f.chunk.css.map",
+    "static/css/main.dbaf75e1.chunk.css.map": "/port-react/static/css/main.dbaf75e1.chunk.css.map",
     "static/js/2.1380740d.chunk.js.LICENSE.txt": "/port-react/static/js/2.1380740d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0b146896.js",
     "static/js/2.1380740d.chunk.js",
-    "static/css/main.e11e506f.chunk.css",
-    "static/js/main.20ed9ed7.chunk.js"
+    "static/css/main.dbaf75e1.chunk.css",
+    "static/js/main.f7a1b410.chunk.js"
   ]
 }
